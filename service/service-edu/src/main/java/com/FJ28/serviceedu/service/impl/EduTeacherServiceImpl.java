@@ -3,13 +3,10 @@ package com.FJ28.serviceedu.service.impl;
 import com.FJ28.serviceedu.entity.EduTeacher;
 import com.FJ28.serviceedu.entity.vo.TeacherQuery;
 import com.FJ28.serviceedu.mapper.EduTeacherMapper;
-import com.FJ28.serviceedu.query.TeacherQuery;
 import com.FJ28.serviceedu.service.EduTeacherService;
-<<<<<<< HEAD
-=======
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
->>>>>>> 0a6373b72377b868e22023e33b69f1a20f9441fd
+
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
@@ -51,8 +48,4 @@ public class EduTeacherServiceImpl extends ServiceImpl<EduTeacherMapper, EduTeac
         baseMapper.selectPage(pageParam, queryWrapper);
     }
 
-    @Override
-    public void pageQuery(Page<EduTeacher> pageParam, TeacherQuery teacherQuery) {
-
-    }
 }
