@@ -25,15 +25,12 @@ public class MyBatisPlusConfig {
         return performanceInterceptor;
     }
 
-
     // logic delete plugin
     @Bean
     public ISqlInjector sqlInjector() {
         return new LogicSqlInjector();
     }
 
-
-    // Pagination plugin
     @Bean
     public PaginationInterceptor paginationInterceptor() {
         return new PaginationInterceptor();
