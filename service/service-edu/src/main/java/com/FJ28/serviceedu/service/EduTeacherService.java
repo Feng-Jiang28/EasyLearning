@@ -1,6 +1,8 @@
 package com.FJ28.serviceedu.service;
 
 import com.FJ28.serviceedu.entity.EduTeacher;
+import com.FJ28.serviceedu.query.TeacherQuery;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -18,6 +20,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
 
 public interface EduTeacherService extends IService<EduTeacher> {
     // what if I want to add new services.
-
+    void pageQuery(Page<EduTeacher> pageParam, TeacherQuery teacherQuery);
 
 }
