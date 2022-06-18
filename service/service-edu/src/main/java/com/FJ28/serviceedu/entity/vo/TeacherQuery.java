@@ -20,7 +20,7 @@ public class TeacherQuery implements Serializable {
     private Integer level;
 
     @ApiModelProperty(value = "start time", example = "2019-01-01 10:10:10")
-    private String begin;//
+    private String begin;
 
     @ApiModelProperty(value = "end time", example = "2019-12-01 10:10:10")
     private String end;

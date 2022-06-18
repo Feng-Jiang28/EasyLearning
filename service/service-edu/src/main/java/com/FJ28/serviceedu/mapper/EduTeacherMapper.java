@@ -2,6 +2,7 @@ package com.FJ28.serviceedu.mapper;
 
 import com.FJ28.serviceedu.entity.EduTeacher;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.springframework.stereotype.Repository;
 
 /**
  * <p>

@@ -1,4 +1,4 @@
-package com.FJ28.config;
+package com.FJ28.servicebase;
 
 import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;
