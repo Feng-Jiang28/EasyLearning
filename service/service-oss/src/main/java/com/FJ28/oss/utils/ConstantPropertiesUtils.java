@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 public class ConstantPropertiesUtils implements InitializingBean {
 
     // value 注解可以 读取配置文件内容：
-    @Value("${aliyun.oss.file.endPoint}")
+    @Value("${aliyun.oss.file.endpoint}")
     private String endPoint;
 
     @Value("${aliyun.oss.file.keyid}")

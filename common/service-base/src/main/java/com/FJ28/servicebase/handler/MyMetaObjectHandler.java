@@ -1,4 +1,4 @@
-package com.FJ28.config.handler;
+package com.FJ28.servicebase.handler;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import org.apache.ibatis.reflection.MetaObject;

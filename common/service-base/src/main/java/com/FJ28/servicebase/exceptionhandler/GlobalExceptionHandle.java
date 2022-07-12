@@ -1,4 +1,4 @@
-package com.FJ28.config.handler;
+package com.FJ28.servicebase.exceptionhandler;
 
 import com.FJ28.commonutils.R;
 
