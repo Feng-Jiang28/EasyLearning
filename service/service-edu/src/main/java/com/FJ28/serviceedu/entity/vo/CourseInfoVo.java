@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 
 @ApiModel(value = "课程基本信息", description = "编辑课程基本信息的表单对象")
 @Data
-public class CourseInfoForm implements Serializable {
+public class CourseInfoVo implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

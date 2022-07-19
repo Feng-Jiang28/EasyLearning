@@ -1,6 +1,7 @@
 package com.FJ28.serviceedu.service;
 
 import com.FJ28.serviceedu.entity.EduCourse;
+import com.FJ28.serviceedu.entity.vo.CourseInfoVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -13,4 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface EduCourseService extends IService<EduCourse> {
 
+    String saveCourseInfo(CourseInfoVo courseInfoVo);
 }
