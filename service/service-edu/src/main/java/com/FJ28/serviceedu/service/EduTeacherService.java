@@ -14,11 +14,10 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author FJ28
  * @since 2022-06-03
  */
+
 // if there is no IService:
 // We need to write a EduService and use write code about how to add a new teacher and so forth;
 // but there is a IService: so IService<T> implements all the methods need to write.
-
-
 public interface EduTeacherService extends IService<EduTeacher> {
     // what if I want to add new services.
     void pageQuery(Page<EduTeacher> pageParam, TeacherQuery teacherQuery);

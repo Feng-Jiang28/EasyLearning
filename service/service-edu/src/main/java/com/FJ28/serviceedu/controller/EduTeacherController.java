@@ -77,7 +77,7 @@ public class EduTeacherController {
 
     // RequestBody use json to transfer data, and wrap json into object， must use the PostMapping methods.
     @PostMapping("pageTeacherCondition/{current}/{limit}")
-    public R pageTeacherCondition(@PathVariable long current, @PathVariable long limit, @RequestBody(required = false ) TeacherQuery teacherQuery){
+    public R pageTeacherCondition(@PathVariable long current, @PathVariable long limit, @RequestBody(required = false) TeacherQuery teacherQuery){
 
         Page<EduTeacher> pageTeacher = new Page<>(current, limit);
         QueryWrapper<EduTeacher> queryWrapper = new QueryWrapper<>();

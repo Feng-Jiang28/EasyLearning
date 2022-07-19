@@ -28,7 +28,7 @@ public class R {
     private R(){}
 
     //
-    public static  R ok(){
+    public static R ok(){
         R r = new R();
         r.setSuccess(true);
         r.setCode(ResultCode.SUCCESS);
